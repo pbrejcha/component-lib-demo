@@ -64,6 +64,13 @@ pre {
 }
 .wrapper {
   width: 100%;
+  padding: 24px;
+  display: grid;
+  grid-template-areas:
+    'radix base'
+    'prime vanilla';
+  column-gap: 16px;
+  row-gap: 16px;
 }
 .container {
   margin-left: auto;
@@ -74,6 +81,11 @@ pre {
   padding-right: 1rem;
   color: rgba(55, 65, 81, 1);
   width: 100%;
+  border: 1px solid lightgrey;
+  height: 100%;
+}
+.content {
+  margin-top: 48px;
 }
 #welcome {
   margin-top: 2.5rem;

@@ -2,6 +2,8 @@
   "version": 2,
   "projects": {
     "nx-test": "apps/nx-test",
-    "nx-test-e2e": "apps/nx-test-e2e"
+    "nx-test-e2e": "apps/nx-test-e2e",
+    "ui": "libs/ui",
+    "ui-e2e": "apps/ui-e2e"
   }
 }
